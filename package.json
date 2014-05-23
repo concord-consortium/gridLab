@@ -1,0 +1,16 @@
+{
+  "name": "gridlab.js",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "node_modules/.bin/brunch watch --server"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "brunch": "*",
+    "javascript-brunch": "~1.6.0",
+    "css-brunch": "~1.6.0",
+    "coffee-script-brunch": "~1.7.2"
+  }
+}
