@@ -10,6 +10,8 @@ stylesheets, and other assets.
 ### Dependencies
 
 * [Node](http://nodejs.org/) `brew install node`
+* [Brunch 1.4.5](http://brunch.io) `npm install -g brunch/brunch`
+* [Bower](http://bower.io/) `npm install -g bower`
 
 ### Setup Brunch and Project Libraries
 
@@ -18,6 +20,7 @@ as libraries the project depends on.
 
 ```
   npm install
+  bower install
 ```
 
 ### Starting the Server
