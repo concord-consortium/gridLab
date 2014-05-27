@@ -39,3 +39,18 @@ whenever they change.
 
 You can also just run `brunch build` to simply build the files into /public without starting
 the server.
+
+### Running the Tests
+
+To run the tests under PhantomJS, you'll first have to install PhantomJS
+
+```
+  brew install phantomjs
+```
+
+The run
+
+```
+  npm test
+```
+
