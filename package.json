@@ -4,7 +4,7 @@
   "repository": "",
   "scripts": {
     "start": "node_modules/.bin/brunch watch --server",
-    "test": "cd test; ../node_modules/.bin/phantom-jasmine test"
+    "test": "node_modules/.bin/brunch build; cd test; ../node_modules/.bin/phantom-jasmine test"
   },
   "dependencies": {
   },
