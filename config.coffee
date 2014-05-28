@@ -9,4 +9,7 @@ exports.config =
       joinTo:
         'js/app.js': /^app/
         'js/vendor.js': /^(bower_components)/
+    stylesheets:
+      joinTo:
+        'css/app.css' : /^(app)/
   sourceMaps: false
